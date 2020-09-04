@@ -1,0 +1,67 @@
+{
+    "type": "Program",
+    "right": [
+        {
+            "type": "SelectStatement",
+            "start": 19,
+            "right": [
+                {
+                    "type": "StarIdentifier",
+                    "start": 26,
+                    "right": [
+                        {
+                            "type": "FromClauses",
+                            "start": 28,
+                            "right": [
+                                {
+                                    "type": "Identifier",
+                                    "start": 33,
+                                    "right": [
+                                        {
+                                            "type": "OptionalClausesLimit",
+                                            "start": 41,
+                                            "right": [
+                                                {
+                                                    "type": "NumberLiteral",
+                                                    "start": 47,
+                                                    "right": [
+                                                        {
+                                                            "type": "StatementTerminator",
+                                                            "start": 50,
+                                                            "right": [],
+                                                            "lineNumber": 4,
+                                                            "end": 51,
+                                                            "value": ";"
+                                                        }
+                                                    ],
+                                                    "lineNumber": 4,
+                                                    "end": 50,
+                                                    "value": "100"
+                                                }
+                                            ],
+                                            "lineNumber": 4,
+                                            "end": 46,
+                                            "value": "limit"
+                                        }
+                                    ],
+                                    "lineNumber": 4,
+                                    "end": 40,
+                                    "value": "tb_test"
+                                }
+                            ],
+                            "lineNumber": 4,
+                            "end": 32,
+                            "value": "from"
+                        }
+                    ],
+                    "lineNumber": 4,
+                    "end": 26,
+                    "value": "*"
+                }
+            ],
+            "lineNumber": 4,
+            "end": 25,
+            "value": "select"
+        }
+    ]
+}

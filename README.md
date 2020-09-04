@@ -42,6 +42,7 @@ SELECT * FROM tb_test LIMIT 100;
 <p align="center"><img src="./img/tokenizer.svg" /></p>
 
 这里我们针对 `Select` 语句稍作调整：
+
 符号 | 类型 | 备注
 ---------|----------|---------
  SELECT | SelectStatement | 查询声明
